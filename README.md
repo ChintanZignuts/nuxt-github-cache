@@ -89,15 +89,19 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 🖼 Screenshots
 
 📸 1st Request (No Cache)
-• Full GitHub API fetch
-• 200 OK
-• Slowest response (~500ms+)
+
+- Full GitHub API fetch
+- 200 OK
+- Slowest response (~500ms+)
+
 ![Cold Request](./docs/cold-request.png)
 
 📸 2nd Request (From Nitro Cache)
-• Cached by defineCachedEventHandler
-• Still returns 200 OK
-• Much faster (~30–100ms)
+
+- Cached by defineCachedEventHandler
+- Still returns 200 OK
+- Much faster (~30–100ms)
+
 ![Cached Request](./docs/cached-request.png)
 
 ## 📚 Resources
